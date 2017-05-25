@@ -1,4 +1,4 @@
-# Simple-C-Matrix-Library
+# Simple Matrix
 
 A set of basic C routines to abstract vector/matrix storage and operations, offering:
 
