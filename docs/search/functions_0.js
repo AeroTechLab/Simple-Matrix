@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['mat_5fclear',['Mat_Clear',['../matrix_8h.html#a0755f5b3eddd035646f24c06c944a879',1,'matrix.h']]],
+  ['mat_5fcopy',['Mat_Copy',['../matrix_8h.html#aa335c3151d219072da6433a5236cda3f',1,'matrix.h']]],
+  ['mat_5fcreate',['Mat_Create',['../matrix_8h.html#a65948ca0d7ab73c048ceea2c6ed07ac3',1,'matrix.h']]],
+  ['mat_5fcreatesquare',['Mat_CreateSquare',['../matrix_8h.html#a61ff66817ee71b22a6bad5aff5778654',1,'matrix.h']]],
+  ['mat_5fdeterminant',['Mat_Determinant',['../matrix_8h.html#af7ac04005bb59db363a4c53745d89c07',1,'matrix.h']]],
+  ['mat_5fdiscard',['Mat_Discard',['../matrix_8h.html#aa8d51243d0e58198dca476a24c1d3ac1',1,'matrix.h']]],
+  ['mat_5fdot',['Mat_Dot',['../matrix_8h.html#a1aa86d69efdcab205e4e32fb87c8426c',1,'matrix.h']]],
+  ['mat_5fgetdata',['Mat_GetData',['../matrix_8h.html#aed398b13b37b33f8def3bb3c4cb6560a',1,'matrix.h']]],
+  ['mat_5fgetelement',['Mat_GetElement',['../matrix_8h.html#ad9b8c6e70ce1ff8b84a9b397729a90b3',1,'matrix.h']]],
+  ['mat_5fgetheight',['Mat_GetHeight',['../matrix_8h.html#a47f06f73df6678a81d9726562969a778',1,'matrix.h']]],
+  ['mat_5fgetwidth',['Mat_GetWidth',['../matrix_8h.html#ad8e4fe1fb4c7ae9ab93b86848f6d190f',1,'matrix.h']]],
+  ['mat_5finverse',['Mat_Inverse',['../matrix_8h.html#a720cb4390590f20392ce5ec65a86d18f',1,'matrix.h']]],
+  ['mat_5fprint',['Mat_Print',['../matrix_8h.html#a1b210f6b6a41618d75c9e95acad31388',1,'matrix.h']]],
+  ['mat_5fresize',['Mat_Resize',['../matrix_8h.html#a055613cc38faac76928a5328c6e60b88',1,'matrix.h']]],
+  ['mat_5fscale',['Mat_Scale',['../matrix_8h.html#a829003c84fb0a8db955830a94e0f56ec',1,'matrix.h']]],
+  ['mat_5fsetdata',['Mat_SetData',['../matrix_8h.html#a061e515e9a6af2fb7d4bb3ce5638390e',1,'matrix.h']]],
+  ['mat_5fsetelement',['Mat_SetElement',['../matrix_8h.html#af3d13bcc9191f08d78849198c60e6254',1,'matrix.h']]],
+  ['mat_5fsum',['Mat_Sum',['../matrix_8h.html#ab4714f8595b845e6453ce17fd7b5b99a',1,'matrix.h']]],
+  ['mat_5ftranspose',['Mat_Transpose',['../matrix_8h.html#abde4a3644f47ac1b0ac23ea6f3f59e6f',1,'matrix.h']]]
+];
