@@ -13,6 +13,6 @@ Internally, the library uses [BLAS/LAPACK](https://en.wikipedia.org/wiki/LAPACK)
 
 ### Building example
 
-For instance, building this library with [GCC](https://gcc.gnu.org/) as a shared object, using reference **BLAS/LAPACK**, would require the shell command from the root directory:
+For instance, building this library with [GCC](https://gcc.gnu.org/) as a shared object, using reference **BLAS/LAPACK**, would require the shell command (from root directory):
 
 >$ gcc matrix.c -I. -shared -fPIC -o matrix.so -lblas -llapack
