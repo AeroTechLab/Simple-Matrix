@@ -16,3 +16,7 @@ Internally, the library uses [BLAS/LAPACK](https://en.wikipedia.org/wiki/LAPACK)
 For instance, building this library with [GCC](https://gcc.gnu.org/) as a shared object, using reference **BLAS/LAPACK**, would require the shell command (from root directory):
 
 >$ gcc matrix.c -I. -shared -fPIC -o matrix.so -lblas -llapack
+
+### Documentation
+
+Descriptions of how the functions and data structures work are available at the [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html)-generated [documentation pages](https://labdin.github.io/Simple-C-Matrix-Library/)
