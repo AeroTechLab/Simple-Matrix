@@ -19,4 +19,4 @@ For instance, building this library with [GCC](https://gcc.gnu.org/) as a shared
 
 ### Documentation
 
-Descriptions of how the functions and data structures work are available at the [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html)-generated [documentation pages](https://labdin.github.io/Simple-Matrix/)
+Descriptions of how the functions and data structures work are available at the [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html)-generated [documentation pages](https://labdin.github.io/Simple-Matrix/matrix_8h.html)
