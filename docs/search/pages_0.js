@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['simple_2dc_2dmatrix_2dlibrary',['Simple-C-Matrix-Library',['../index.html',1,'']]]
+  ['simple_20matrix',['Simple Matrix',['../index.html',1,'']]]
 ];

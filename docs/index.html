@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Simple C Matrix Library: Simple-C-Matrix-Library</title>
+<title>Simple Matrix: Simple Matrix</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Simple C Matrix Library
+   <div id="projectname">Simple Matrix
    </div>
   </td>
  </tr>
@@ -59,7 +59,7 @@ $(function() {
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Simple-C-Matrix-Library </div>  </div>
+<div class="title">Simple Matrix </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>A set of basic C routines to abstract vector/matrix storage and operations, offering:</p>
@@ -73,8 +73,10 @@ $(function() {
 </ul>
 <p>Internally, the library uses <a href="https://en.wikipedia.org/wiki/LAPACK">BLAS/LAPACK</a> routines, so the library must be linked to one of its available implementations, like the <a href="http://www.netlib.org/lapack/lug/node11.html">reference BLAS/LAPACK</a>, <a href="http://www.openblas.net/">OpenBLAS</a>, <a href="http://math-atlas.sourceforge.net/">ATLAS</a>, <a href="https://software.intel.com/en-us/intel-mkl">Intel's MKL</a>, etc.</p>
 <h3>Building example</h3>
-<p>For instance, building this library with <a href="https://gcc.gnu.org/">GCC</a> as a shared object, using reference <b>BLAS/LAPACK</b>, would require the shell command from the root directory:</p>
-<p>&gt;$ gcc matrix.c -I. -shared -fPIC -o matrix.so -lblas -llapack </p>
+<p>For instance, building this library with <a href="https://gcc.gnu.org/">GCC</a> as a shared object, using reference <b>BLAS/LAPACK</b>, would require the shell command (from root directory):</p>
+<p>&gt;$ gcc matrix.c -I. -shared -fPIC -o matrix.so -lblas -llapack</p>
+<h3>Documentation</h3>
+<p>Descriptions of how the functions and data structures work are available at the <a href="http://www.stack.nl/~dimitri/doxygen/index.html">Doxygen</a>-generated <a href="https://labdin.github.io/Simple-Matrix/">documentation pages</a> </p>
 </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

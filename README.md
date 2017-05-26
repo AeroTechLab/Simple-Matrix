@@ -1,4 +1,4 @@
-# Simple-C-Matrix-Library
+# Simple Matrix
 
 A set of basic C routines to abstract vector/matrix storage and operations, offering:
 
@@ -19,4 +19,4 @@ For instance, building this library with [GCC](https://gcc.gnu.org/) as a shared
 
 ### Documentation
 
-Descriptions of how the functions and data structures work are available at the [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html)-generated [documentation pages](https://labdin.github.io/Simple-C-Matrix-Library/)
+Descriptions of how the functions and data structures work are available at the [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html)-generated [documentation pages](https://labdin.github.io/Simple-Matrix/)
