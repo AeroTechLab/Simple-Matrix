@@ -48,7 +48,7 @@ struct _MatrixData
 
 Matrix Mat_Create( double* data, size_t rowsNumber, size_t columnsNumber )
 {
-  if( rowsNumber > MATRIX_SIZE_MAX || columnsNumber > MATRIX_SIZE_MAX ) return NULL;
+  if( rowsNumber * columnsNumber > MATRIX_SIZE_MAX ) return NULL;
 
   Matrix newMatrix = (Matrix) malloc( sizeof(MatrixData) );
 
@@ -164,7 +164,7 @@ void Mat_SetData( Matrix matrix, double* data )
 
 Matrix Mat_Resize( Matrix matrix, size_t rowsNumber, size_t columnsNumber )
 {
-  double auxArray[ MATRIX_SIZE_MAX * MATRIX_SIZE_MAX ];
+  double auxArray[ MATRIX_SIZE_MAX ];
   
   if( matrix == NULL )
     matrix = Mat_Create( NULL, rowsNumber, columnsNumber );
@@ -225,7 +225,7 @@ Matrix Mat_Dot( Matrix matrix_1, char transpose_1, Matrix matrix_2, char transpo
   const double alpha = 1.0;
   const double beta = 0.0;
   
-  double auxArray[ MATRIX_SIZE_MAX * MATRIX_SIZE_MAX ];
+  double auxArray[ MATRIX_SIZE_MAX ];
   
   if( matrix_1 == NULL || matrix_2 == NULL ) return NULL;
   
@@ -249,7 +249,7 @@ Matrix Mat_Dot( Matrix matrix_1, char transpose_1, Matrix matrix_2, char transpo
 
 double Mat_Determinant( Matrix matrix )
 {
-  double auxArray[ MATRIX_SIZE_MAX * MATRIX_SIZE_MAX ];
+  double auxArray[ MATRIX_SIZE_MAX ];
   int pivotArray[ MATRIX_SIZE_MAX ];
   int info;
   
@@ -273,7 +273,7 @@ double Mat_Determinant( Matrix matrix )
 
 Matrix Mat_Transpose( Matrix matrix, Matrix result )
 {
-  double auxArray[ MATRIX_SIZE_MAX * MATRIX_SIZE_MAX ] = { 0 };
+  double auxArray[ MATRIX_SIZE_MAX ] = { 0 };
   
   if( matrix == NULL ) return NULL;
 
@@ -293,7 +293,7 @@ Matrix Mat_Transpose( Matrix matrix, Matrix result )
 
 Matrix Mat_Inverse( Matrix matrix, Matrix result )
 {
-  double auxArray[ MATRIX_SIZE_MAX * MATRIX_SIZE_MAX ] = { 0 };
+  double auxArray[ MATRIX_SIZE_MAX ] = { 0 };
   int pivotArray[ MATRIX_SIZE_MAX ];
   int info;
   
