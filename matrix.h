@@ -45,7 +45,7 @@ typedef MatrixData* Matrix;               ///< Opaque reference to Matrix data s
 /// @param[in] data array with values in row-major order to fill matrix data (NULL for filling with zeros)                                 
 /// @param[in] rowsNumber number of rows                                         
 /// @param[in] columnsNumber number of columns      
-/// @return reference/pointer to allocated and filled matrix (NULL if dimensions are bigger than MATRIX_SIZE_MAX)
+/// @return reference/pointer to allocated and filled matrix (NULL if elements number is greater than MATRIX_SIZE_MAX)
 Matrix Mat_Create( double* data, size_t rowsNumber, size_t columnsNumber );     
 
 /// @brief Creates square matrix of specified size and type                              
