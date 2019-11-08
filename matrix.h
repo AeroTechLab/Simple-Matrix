@@ -28,7 +28,7 @@
 
 #include <stdint.h>
 
-#define MATRIX_SIZE_MAX (100 * 100) ///< Maximum allowed matrix number of elements (rows x columns)
+#define MATRIX_SIZE_MAX (50 * 50)   ///< Maximum allowed matrix number of elements (rows x columns)
 
 #define MATRIX_IDENTITY 'I'         ///< Create square matrix as identity type (main diagonal filled with 1's)
 #define MATRIX_ZERO '0'             ///< Create square matrix as zero type (completely zeroed)
